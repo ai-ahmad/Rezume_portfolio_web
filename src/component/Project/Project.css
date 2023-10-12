@@ -1,0 +1,10 @@
+.project-section h2 {
+  text-align: center;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

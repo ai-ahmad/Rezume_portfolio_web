@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap");
+.App {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

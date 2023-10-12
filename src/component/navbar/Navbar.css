@@ -1,0 +1,105 @@
+nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_ahmad_portfolio {
+  font-size: 30px;
+  color: rgb(156, 156, 131);
+}
+
+.navigation_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  width: 90px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+button:hover {
+  color: blueviolet;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: violet;
+  color: violet;
+}
+
+.menu-bar__logo {
+  font-size: 24px;
+}
+
+.menu-bar__toggle-button {
+  display: none;
+  background: none;
+  border: none;
+  color: violet;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu-bar__items {
+  list-style: none;
+  display: flex;
+  display: none;
+}
+
+.menu-bar__item {
+  padding: 0 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: white;
+  display: flex;
+  justify-content: start;
+}
+
+.menu-bar__item:hover {
+  color: violet;
+}
+
+@media (max-width: 600px) {
+  .logo_ahmad_portfolio {
+    font-size: 20px;
+  }
+
+  .navigation_buttons {
+    display: none;
+  }
+  .menu-bar__toggle-button {
+    display: block;
+  }
+
+  .menu-bar__items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: rgb(128, 111, 128);
+  }
+
+  .menu-bar__items.open {
+    display: flex;
+  }
+
+  .menu-bar__item {
+    padding: 10px;
+  }
+}

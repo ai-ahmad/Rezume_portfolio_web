@@ -1,0 +1,74 @@
+section {
+  margin-top: 140px;
+}
+
+.title {
+  font-size: 120px;
+  font-family: "Ribeye Marrow", serif;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img_about_me {
+  animation: img 3s linear infinite;
+  position: relative;
+  max-width: 500px;
+  z-index: -999;
+}
+
+.about-section h3 {
+  color: #535962;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-section h3 span {
+  color: #007dfe;
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 18px;
+  max-width: 600px;
+  width: 100%;
+}
+
+@keyframes img {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 30px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+  .about-section h3 {
+    font-size: 20px;
+  }
+  .about-section p {
+    font-size: 14px;
+  }
+  .img_about_me {
+    max-width: 400px;
+    width: 100%;
+  }
+}

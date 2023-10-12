@@ -1,0 +1,26 @@
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
+.footer-link {
+  display: flex;
+  gap: 20px;
+}
+
+.text-info-site p {
+  color: peru;
+}
+
+.text-info-site a {
+  color: deepskyblue;
+}
